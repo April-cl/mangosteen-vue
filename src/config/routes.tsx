@@ -1,3 +1,5 @@
+import { ItemCreate } from "../components/item/ItemCreate";
+import { ItemList } from "../components/item/ItemList";
 import { First } from "../components/welcome/First";
 import { FirstActions } from "../components/welcome/FirstActions";
 import { Forth } from "../components/welcome/Forth";
@@ -6,6 +8,7 @@ import { Second } from "../components/welcome/Second";
 import { SecondActions } from "../components/welcome/SecondActions";
 import { Third } from "../components/welcome/Third";
 import { ThirdActions } from "../components/welcome/ThirdActions";
+import { ItemPage } from "../views/ItemPage";
 import { StartPage } from "../views/StartPage";
 import { Welcome } from "../views/Welcome";
 
@@ -25,5 +28,12 @@ export const routes = [
     },
     {
         path: '/start', component: StartPage
+    },
+    {
+        path: '/items', component: ItemPage,
+        children: [
+            { path: '', component: ItemList },
+            { path: 'create', component: ItemCreate }
+        ]
     }
 ]
