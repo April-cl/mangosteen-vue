@@ -9,6 +9,7 @@
     --navbar-bg-start: var(--welcome-bg-start);
     --navbar-bg-end: var(--welcome-bg-end);
     --navbar-text: white;
+    --tabs-indicator-bg: rgba(255, 255, 255, 0.5);
     --transition-duration: 0.5s;
     --top-safe-area-height: 24px;
     --overlay-bg: white;
@@ -21,6 +22,6 @@
     --welcome-bg-end: #8f4cd7;
     --welcome-nav-height: 64px;
     --welcome-nav-gap: 8px;
-    --z-index-bottom-nav: 18;
+    --z-index-bottom-nav: 8;
     --z-index-overlay: 16;
 }
