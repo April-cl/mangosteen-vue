@@ -1,13 +1,14 @@
 :root {
     --amount-text: #53A867;
     --date-text: #999;
-    --button-bg: #5C33BE;
+    --button-bg: white;
+    --button-bg-important: #5C33BE;
     --button-border-color: #ddd;
     --button-font-size: 18px;
     --button-height: 48px;
     --button-radius: 8px;
     --button-text: white;
-    --float-button-bg: var(--button-bg);
+    --float-button-bg: var(--button-bg-important);
     --float-button-text: white;
     --navbar-bg-end: var(--welcome-bg-end);
     --navbar-bg-start: var(--welcome-bg-start);
