@@ -32,6 +32,10 @@
         }
     }
 
+    &.button {
+        width: 100%;
+    }
+
     &.emojiList {
         flex-grow: 1;
         border: 1px solid var(--input-border-color);
