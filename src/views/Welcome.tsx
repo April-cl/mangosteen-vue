@@ -1,7 +1,7 @@
 import { defineComponent, ref, Transition, VNode, watchEffect } from "vue";
 import { RouteLocationNormalizedLoaded, RouterView, useRoute, useRouter } from "vue-router";
 import s from "./Welcome.module.scss"
-import { useSwipe } from "../hocks/useSwipe";
+import { useSwipe } from "../hooks/useSwipe";
 import { throttle } from "../shared/throttle";
 
 const pushMap: Record<string, string> = {
