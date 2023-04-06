@@ -8,7 +8,7 @@
     background: var(--overlay-mask-bg);
 
     &_inner {
-        background: var(-bg);
+        background: var(--bg);
         width: 80vw;
 
         > header {
