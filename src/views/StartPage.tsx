@@ -6,7 +6,7 @@ import { Center } from "../shared/Center";
 import { FloatButton } from "../shared/FloatButton";
 import { Icon } from "../shared/Icon";
 import { Navbar } from "../shared/Navbar";
-import { Overlay } from "../shared/Overlay";
+import { Overlay, OverlayIcon } from "../shared/Overlay";
 import s from "./StartPage.module.scss"
 
 export const StartPage = defineComponent({
@@ -19,7 +19,7 @@ export const StartPage = defineComponent({
             <MainLayout>{
                 {
                     title: () => '山竹记账',
-                    icon: () => <Icon name="menu" class={s.navIcon} onClick={onClickMenu} />,
+                    icon: () => <OverlayIcon />,
                     default: () => <>
                         <Center class={s.pig_wrapper}>
                             <Icon name="pig" class={s.pig}></Icon>
